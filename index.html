@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Formación Virtual | Bienvenida</title>
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>
+          <img src="images/logo.png" alt="Logo">
+        </h1>
+      </header>
+      <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#tarifas">Tarifas</a>
+        <a href="#localizacion">Localización</a>
+      </nav>
+      <section id="quienes-somos" class="content who">
+        <h2 class="title">Quiénes Somos</h2>
+        <p></p>
+        <p>En Formación Virtual, nos dedicamos a proporcionar soluciones educativas innovadoras que permiten a nuestros estudiantes alcanzar sus objetivos profesionales. Con un equipo de expertos en diversas áreas, ofrecemos un enfoque personalizado y de alta calidad en todos nuestros programas.</p>
+      </section>
+      <section id="servicios" class="content services">
+        <h2 class="title">Servicios</h2>
+        <p>En Formación Virtual, ofrecemos una amplia gama de servicios que incluyen:
+
+          Desarrollo de aplicaciones con Angular: Especializados en la creación de aplicaciones dinámicas y escalables, utilizando las últimas tecnologías de Angular.
+          Desarrollo frontend con React: Creamos interfaces de usuario intuitivas y eficientes, aprovechando la flexibilidad y potencia de React.
+          Desarrollo con Vuejs: Ofrecemos soluciones de desarrollo modernas con Vuejs, enfocadas en la simplicidad y la rapidez de ejecución..</p>
+        <ul class="list-services">
+          <li>
+            <figure>
+              <img src="images/ico1.png" alt="Angular">
+              <figcaption>Angular</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/ico2.png" alt="React">
+              <figcaption>React</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/ico3.png" alt="Vuejs">
+              <figcaption>Vuejs</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+      <section id="tarifas" class="content tarifas">
+        <article class="contain">
+          <h2 class="title">Tarifas</h2>
+          <p>Las Mejores tarifas en el mercado con garantia.</p>
+          <p>Ofrecemos tarifas competitivas y accesibles para todos nuestros servicios. Nuestros planes de precios están diseñados para ajustarse a las necesidades y presupuestos de nuestros clientes, asegurando siempre la mejor relación calidad-precio. No dudes en contactarnos para obtener una cotización personalizada.</p>
+          <a href="#contacto" class="btn">Contáctanos</a>
+        </article>
+      </section>
+      <section id="opiniones" class="content opiniones">
+        <h2 class="title">Opiniones</h2>
+        <div class="opinion-box">
+          <blockquote>
+            <p>"Formación Virtual ha transformado nuestra manera de trabajar con su increíble equipo y servicios."</p>
+            <cite>- Juan Pérez, CEO de Empresa X</cite>
+          </blockquote>
+        </div>
+        <div class="opinion-box">
+          <blockquote>
+            <p>"La dedicación y profesionalismo de Formación Virtual es inigualable. ¡Altamente recomendado!"</p>
+            <cite>- María García, CTO de Empresa Y</cite>
+          </blockquote>
+        </div>
+      </section>
+      <section id="localizacion" class="content localization">
+        <h2 class="title">Localización</h2>
+        <p>Nos encontramos estratégicamente ubicados para servir a nuestros clientes de manera eficiente. Nuestro centro de operaciones está en el corazón de la ciudad, lo que nos permite estar siempre cerca de nuestros estudiantes y colaboradores. ¡Visítanos y descubre cómo podemos ayudarte a alcanzar tus metas educativas!</p>
+        <div id="map"></div>
+        <h3>Formulario de Contacto</h3>
+        <form id="contacto" action="enviar_formulario.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      <footer class="footer">
+        <p>&copy; 2024 Fazt. Todos los derechos reservados.</p>
+        <nav class="footer-nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#quienes-somos">Quiénes Somos</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#tarifas">Tarifas</a>
+          <a href="#localizacion">Localización</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </footer>      
+</body>
+</html>
